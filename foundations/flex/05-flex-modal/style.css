@@ -25,7 +25,10 @@ body {
   /*this is the just the beginning*/
   justify-content: center;
   /*this is a new feature this is being added to the content*/
-  align-items: center;
+  border: #333;
+  padding: 45px;
+  /* below is added on new-feature branch*/
+  margin: auto;  align-items: center;
 
 }
 
