@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -34,5 +37,37 @@ input {
 .header,.footer{
   display: flex;
   justify-content: space-between;
-} 
+  padding: 0;
+
+
+}
+
+.footer{
+  background-color: rgb(238, 238, 207);
+}
+
+.right-links, .left-links{
+  display: flex;
+  gap: 13px;
+  margin-right: 40px;
+
+}
+
+
+
+
+
+
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(109, 106, 106) ;
+
+
+}
+
 
